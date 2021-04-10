@@ -1,0 +1,129 @@
+Folder PATH listing
+Volume serial number is 4603-A8D3
+C:.
+|   .gitignore
+|   build.gradle
+|   gradle.properties
+|   gradlew
+|   gradlew.bat
+|   grails-wrapper.jar
+|   grailsw
+|   grailsw.bat
+|   
++---gradle
+|   \---wrapper
+|           gradle-wrapper.jar
+|           gradle-wrapper.properties
+|           
++---grails-app
+|   +---assets
+|   |   +---images
+|   |   |   |   advancedgrails.svg
+|   |   |   |   apple-touch-icon-retina.png
+|   |   |   |   apple-touch-icon.png
+|   |   |   |   documentation.svg
+|   |   |   |   favicon.ico
+|   |   |   |   grails-cupsonly-logo-white.svg
+|   |   |   |   grails.svg
+|   |   |   |   slack.svg
+|   |   |   |   spinner.gif
+|   |   |   |   
+|   |   |   \---skin
+|   |   |           database_add.png
+|   |   |           database_delete.png
+|   |   |           database_edit.png
+|   |   |           database_save.png
+|   |   |           database_table.png
+|   |   |           exclamation.png
+|   |   |           house.png
+|   |   |           information.png
+|   |   |           shadow.jpg
+|   |   |           sorted_asc.gif
+|   |   |           sorted_desc.gif
+|   |   |           
+|   |   +---javascripts
+|   |   |       application.js
+|   |   |       bootstrap.bundle.js
+|   |   |       bootstrap.bundle.js.map
+|   |   |       bootstrap.bundle.min.js
+|   |   |       bootstrap.bundle.min.js.map
+|   |   |       bootstrap.js
+|   |   |       bootstrap.js.map
+|   |   |       bootstrap.min.js
+|   |   |       bootstrap.min.js.map
+|   |   |       jquery-3.3.1.min.js
+|   |   |       jquery-3.3.1.min.js.map
+|   |   |       popper.min.js
+|   |   |       
+|   |   \---stylesheets
+|   |           application.css
+|   |           bootstrap-grid.css
+|   |           bootstrap-reboot.css
+|   |           bootstrap.css
+|   |           bootstrap.css.map
+|   |           bootstrap.min.css
+|   |           bootstrap.min.css.map
+|   |           errors.css
+|   |           grails.css
+|   |           main.css
+|   |           mobile.css
+|   |           
+|   +---conf
+|   |   |   application.yml
+|   |   |   logback.groovy
+|   |   |   
+|   |   \---spring
+|   |           resources.groovy
+|   |           
+|   +---controllers
+|   |   \---bookstore4010web
+|   |           UrlMappings.groovy
+|   |           
+|   +---domain
+|   +---i18n
+|   |       messages.properties
+|   |       messages_cs.properties
+|   |       messages_da.properties
+|   |       messages_de.properties
+|   |       messages_es.properties
+|   |       messages_fr.properties
+|   |       messages_it.properties
+|   |       messages_ja.properties
+|   |       messages_nb.properties
+|   |       messages_nl.properties
+|   |       messages_pl.properties
+|   |       messages_pt_BR.properties
+|   |       messages_pt_PT.properties
+|   |       messages_ru.properties
+|   |       messages_sk.properties
+|   |       messages_sv.properties
+|   |       messages_th.properties
+|   |       messages_zh_CN.properties
+|   |       
+|   +---init
+|   |   \---bookstore4010web
+|   |           Application.groovy
+|   |           BootStrap.groovy
+|   |           
+|   +---services
+|   +---taglib
+|   +---utils
+|   \---views
+|       |   error.gsp
+|       |   index.gsp
+|       |   notFound.gsp
+|       |   
+|       \---layouts
+|               main.gsp
+|               
+\---src
+    +---integration-test
+    |   +---groovy
+    |   \---resources
+    |           GebConfig.groovy
+    |           
+    +---main
+    |   +---groovy
+    |   \---webapp
+    \---test
+        \---groovy
