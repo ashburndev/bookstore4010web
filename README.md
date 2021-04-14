@@ -149,3 +149,89 @@ The Class-Path manifest attribute in C:\Users\David Holberton\.gradle\caches\mod
 <==========---> 83% EXECUTING [8s]
 > :bootRun
 ```
+
+Using Eclipse 2021-03 as an IDE to develop this Grails 4.0.10 web application
+
+I installed (unzipped) the Eclipse 2021-03 zip file into directory C:\LocalApps\eclipse-jee-2021-03-R-win32-x86_64
+
+Then I following the instructions on web page https://github.com/groovy/groovy-eclipse/wiki to install the corresponding groovy-eclipse plugin
+
+```
+Once you have a compatible Eclipse installed, then ... follow these steps:
+
+Note: I used the 4.19 (2021-03) https://dist.springsource.org/release/GRECLIPSE/e4.19 update site.
+
+    Go to Help > Install New Software...
+    Click on Add...
+    Paste the update site URL appropriate for your version of Eclipse and click Add
+    Select the new entry in the Work with list of update sites
+    Expand Main Package and select the Eclipse Groovy Development Tools feature
+    Click Next and follow the remaining prompts
+```
+
+Here is a list of the available groovy-eclipse update sites.
+
+```
+Eclipse Level 	Release Update Site
+4.19 (2021-03) 	https://dist.springsource.org/release/GRECLIPSE/e4.19
+4.18 (2020-12) 	https://dist.springsource.org/release/GRECLIPSE/e4.18
+4.17 (2020-09) 	https://dist.springsource.org/release/GRECLIPSE/e4.17
+4.16 (2020-06) 	https://dist.springsource.org/release/GRECLIPSE/e4.16
+4.15 (2020-03) 	https://dist.springsource.org/release/GRECLIPSE/e4.15
+4.14 (2019-12) 	https://dist.springsource.org/release/GRECLIPSE/e4.14
+4.13 (2019-09) 	https://dist.springsource.org/release/GRECLIPSE/e4.13
+4.12 (2019-06) 	https://dist.springsource.org/release/GRECLIPSE/e4.12
+4.11 (2019-03) 	https://dist.springsource.org/release/GRECLIPSE/e4.11
+4.10 (2018-12) 	https://dist.springsource.org/release/GRECLIPSE/e4.10
+4.9 (2018-09) 	https://dist.springsource.org/release/GRECLIPSE/e4.9
+4.8 (Photon) 	https://dist.springsource.org/release/GRECLIPSE/e4.8
+4.7 (Oxygen) 	https://dist.springsource.org/release/GRECLIPSE/e4.7
+4.6 (Neon) 	https://dist.springsource.org/release/GRECLIPSE/e4.6
+4.5 (Mars) 	https://dist.springsource.org/release/GRECLIPSE/e4.5
+4.4 (Luna) 	https://dist.springsource.org/release/GRECLIPSE/e4.4
+4.3j8 (Kepler with Java 8 patch) 	https://dist.springsource.org/release/GRECLIPSE/e4.3-j8
+4.3 (Kepler) 	https://dist.springsource.org/release/GRECLIPSE/e4.3
+```
+
+Here is the tail end of a directory listing of the plugins directory after performing the steps above.
+
+```
+03/12/2021  07:11 AM           301,183 org.jacoco.agent_0.8.6.v20201001-1506.jar
+03/12/2021  07:11 AM           231,091 org.jacoco.core_0.8.6.v20201001-1506.jar
+03/12/2021  07:11 AM           149,420 org.jacoco.report_0.8.6.v20201001-1506.jar
+03/12/2021  07:11 AM         1,687,125 org.jcodings_1.0.18.v20170306-1742.jar
+03/12/2021  07:11 AM           182,664 org.jdom_1.1.1.v201101151400.jar
+03/12/2021  07:11 AM           214,637 org.joni_2.1.11.v20170306-1742.jar
+03/12/2021  07:11 AM           344,634 org.jsoup_1.8.3.v20181012-1713.jar
+03/12/2021  07:11 AM           204,027 org.junit.jupiter.api_5.7.1.v20210222-1948.jar
+03/12/2021  07:11 AM           236,860 org.junit.jupiter.engine_5.7.1.v20210222-1948.jar
+03/12/2021  07:11 AM            44,407 org.junit.jupiter.migrationsupport_5.7.1.v20210222-1948.jar
+03/12/2021  07:11 AM           606,326 org.junit.jupiter.params_5.7.1.v20210222-1948.jar
+03/12/2021  07:11 AM           118,078 org.junit.platform.commons_1.7.1.v20210222-1948.jar
+03/12/2021  07:11 AM           206,807 org.junit.platform.engine_1.7.1.v20210222-1948.jar
+03/12/2021  07:11 AM           159,700 org.junit.platform.launcher_1.7.1.v20210222-1948.jar
+03/12/2021  07:11 AM            34,292 org.junit.platform.runner_1.7.1.v20210222-1948.jar
+03/12/2021  07:11 AM            31,163 org.junit.platform.suite.api_1.7.1.v20210222-1948.jar
+03/12/2021  07:11 AM            82,642 org.junit.vintage.engine_5.7.1.v20210222-1948.jar
+03/12/2021  07:11 AM           425,413 org.junit_4.13.0.v20200204-1500.jar
+03/12/2021  07:11 AM            83,522 org.objectweb.asm.commons_8.0.1.v20200420-1007.jar
+03/12/2021  07:11 AM            66,018 org.objectweb.asm.tree_8.0.1.v20200420-1007.jar
+04/14/2021  07:20 AM         7,288,622 org.eclipse.jdt.core_3.25.0.v202103311613-e2103-RELEASE.jar
+04/14/2021  07:20 AM            16,989 org.codehaus.groovy.eclipse_4.1.0.v202103311613-e2103-RELEASE.jar
+04/14/2021  07:20 AM            11,632 org.codehaus.groovy.eclipse.ant_4.1.0.v202103311613-e2103-RELEASE.jar
+04/14/2021  07:20 AM            54,570 org.codehaus.groovy.eclipse.astviews_4.1.0.v202103311613-e2103-RELEASE.jar
+04/14/2021  07:20 AM           289,170 org.codehaus.groovy.eclipse.codeassist_4.1.0.v202103311613-e2103-RELEASE.jar
+04/14/2021  07:20 AM            92,594 org.codehaus.groovy.eclipse.codebrowsing_4.1.0.v202103311613-e2103-RELEASE.jar
+04/14/2021  07:20 AM            20,957 org.codehaus.groovy.eclipse.compilerResolver_4.1.0.v202103311613-e2103-RELEASE.jar
+04/14/2021  07:20 AM            82,773 org.codehaus.groovy.eclipse.core_4.1.0.v202103311613-e2103-RELEASE.jar
+04/14/2021  07:20 AM           406,036 org.codehaus.groovy.eclipse.dsl_4.1.0.v202103311613-e2103-RELEASE.jar
+04/14/2021  07:20 AM           117,621 org.codehaus.groovy.eclipse.quickfix_4.1.0.v202103311613-e2103-RELEASE.jar
+04/14/2021  07:20 AM           283,958 org.codehaus.groovy.eclipse.refactoring_4.1.0.v202103311613-e2103-RELEASE.jar
+04/14/2021  07:20 AM           562,768 org.codehaus.groovy.eclipse.ui_4.1.0.v202103311613-e2103-RELEASE.jar
+04/14/2021  07:20 AM            18,935 org.codehaus.groovy.m2eclipse_4.1.0.v202103311613-e2103-RELEASE.jar
+04/14/2021  07:20 AM           496,475 org.eclipse.jdt.groovy.core_4.1.0.v202103311613-e2103-RELEASE.jar
+             925 File(s)    401,969,307 bytes
+              27 Dir(s)  39,506,591,744 bytes free
+
+C:\LocalApps\eclipse-jee-2021-03-R-win32-x86_64\plugins>
+```
